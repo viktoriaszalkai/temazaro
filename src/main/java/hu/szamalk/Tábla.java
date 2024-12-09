@@ -16,7 +16,13 @@ public class Tábla {
             }
         }
     }
-    public void elhelyez(){
+    public void elhelyez(int N){
+        Character kiralyno = 'K';
+        for (int i = 0; i < N; i++) {
+            int rnd1 = (int)(Math.random()*8);
+            int rnd2 = (int)(Math.random()*8);
+            T[rnd1][rnd2] = kiralyno;
+        }
 
     }
     public void fajlbair(){
