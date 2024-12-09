@@ -26,7 +26,11 @@ public class Tábla {
 
     }
     public void fajlbair(){
-
+        for (int i = 0; i < 63; i++) {
+            Tábla t = new Tábla('*');
+            t.elhelyez(i+1);
+            t.megjelenit();
+        }
     }
     public void megjelenit(){
         for( int i = 0; i < T.length; i++ )

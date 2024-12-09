@@ -19,5 +19,7 @@ public class Main {
         System.out.println(t1.uresOszlop(7));
 
         System.out.println("9.feladat:Üres oszlopok és sorok száma:\nOszlopok:"+t1.uresOszlopokSzama()+"\nSorok: "+t1.uresSorokSzama());
+
+        t1.fajlbair();
     }
 }
