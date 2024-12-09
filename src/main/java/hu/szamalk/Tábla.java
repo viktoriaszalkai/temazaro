@@ -59,6 +59,23 @@ public class Tábla {
         return allapot;
     }
 
+    public int setUresOszlopokSzama() {
+        int db = 0;
+        for (int i = 0; i < T[0].length; i++) {
+            if(uresOszlop(i)){
+                db++;
+            }
+        }
+        return db;
+    }
 
-
+    public int setUresSorokSzama() {
+        int db = 0;
+        for (int i = 0; i < T.length; i++) {
+            if(uresSor(i)){
+                db++;
+            }
+        }
+        return db;
+    }
 }

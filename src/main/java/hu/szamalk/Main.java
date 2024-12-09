@@ -17,5 +17,7 @@ public class Main {
         System.out.println(t1.uresOszlop(0));
         System.out.println("Az utolsó oszlop üres?");
         System.out.println(t1.uresOszlop(7));
+
+        System.out.println("9.feladat");
     }
 }
