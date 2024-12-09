@@ -1,5 +1,7 @@
 package hu.szamalk;
 
+import java.util.Arrays;
+
 public class Tábla {
     private Character ÜresCella;
     private Character [][] T;
@@ -14,5 +16,22 @@ public class Tábla {
             }
         }
     }
+    public void elhelyez(){
 
+    }
+    public void fajlbair(){
+
+    }
+    public void megjelenit(){
+
+    }
+
+    public int getUresOszlopokSzama() {
+        return uresOszlopokSzama;
+    }
+
+    public int getUresSorokSzama() {
+        return uresSorokSzama;
+    }
+    
 }
