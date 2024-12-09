@@ -1,7 +1,11 @@
 package hu.szamalk;
 
-public class Main {
+import hu.szamalk.JatekProgram.LogikaiJatek;
+
+public class Program {
     public static void main(String[] args) {
+
+        //f1
         Tábla t1 = new Tábla('#');
         System.out.println("4. feladat: Az üres tábla:");
         t1.megjelenit();
@@ -20,6 +24,15 @@ public class Main {
 
         System.out.println("9.feladat:Üres oszlopok és sorok száma:\nOszlopok:"+t1.uresOszlopokSzama()+"\nSorok: "+t1.uresSorokSzama());
 
-        t1.fajlbair();
+        //t1.fajlbair();
+
+        //f2
+        LogikaiJatek j1 = new LogikaiJatek();
+        j1.kezd();
+        j1.ment();
+        j1.vege();
+        System.out.println(j1.toString());
+        LogikaiJatek j2 = new LogikaiJatek(10);
+
     }
 }

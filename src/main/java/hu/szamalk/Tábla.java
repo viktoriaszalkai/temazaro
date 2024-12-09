@@ -1,7 +1,5 @@
 package hu.szamalk;
 
-import java.util.Arrays;
-
 public class Tábla {
     private Character ÜresCella;
     private Character [][] T;
