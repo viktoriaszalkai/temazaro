@@ -59,7 +59,7 @@ public class Tábla {
         return allapot;
     }
 
-    public int setUresOszlopokSzama() {
+    public int uresOszlopokSzama() {
         int db = 0;
         for (int i = 0; i < T[0].length; i++) {
             if(uresOszlop(i)){
@@ -69,7 +69,7 @@ public class Tábla {
         return db;
     }
 
-    public int setUresSorokSzama() {
+    public int uresSorokSzama() {
         int db = 0;
         for (int i = 0; i < T.length; i++) {
             if(uresSor(i)){
