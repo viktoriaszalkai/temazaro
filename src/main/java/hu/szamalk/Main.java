@@ -2,6 +2,7 @@ package hu.szamalk;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Tábla t1 = new Tábla('*');
+        t1.megjelenit();
     }
 }

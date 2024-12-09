@@ -7,7 +7,7 @@ public class Tábla {
     private Character [][] T;
     private int uresOszlopokSzama, uresSorokSzama;
 
-    public Tábla(Character üresCella, Character[][] t) {
+    public Tábla(Character üresCella) {
         this.ÜresCella = üresCella;
         T = new Character[8][8];
         for (int i = 0; i < T.length; i++) {
@@ -23,15 +23,16 @@ public class Tábla {
 
     }
     public void megjelenit(){
-
+        for( int i = 0; i < T.length; i++ )
+        {
+            for( int j = 0; j <T[i].length; j++ )
+            {
+                System.out.print(T[i][j]+" ");
+            }
+            System.out.println();
+        }
     }
 
-    public int getUresOszlopokSzama() {
-        return uresOszlopokSzama;
-    }
 
-    public int getUresSorokSzama() {
-        return uresSorokSzama;
-    }
-    
+
 }
