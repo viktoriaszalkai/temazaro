@@ -39,6 +39,26 @@ public class Tábla {
         }
     }
 
+    public boolean uresOszlop(int oszlop){
+        boolean allapot = true;
+        for (int i = 0; i < T.length ; i++) {
+            if(T[i][oszlop] =='K'){
+                allapot = false;
+            }
+        }
+        return allapot;
+    }
+//[sor][oszlop]!!!
+    public boolean uresSor(int sor){
+        boolean allapot = true;
+        for (int i = 0; i < T[sor].length ; i++) {
+            if(T[sor][i] =='K'){
+                allapot = false;
+            }
+        }
+        return allapot;
+    }
+
 
 
 }
